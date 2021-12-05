@@ -20,7 +20,7 @@ def main():
     for line in file.readlines():
         newstr = ''.join((ch if ch in '0123456789' else ' ') for ch in line)
         listOfNumbers = [int(i) for i in newstr.split()]
-v        x1 = listOfNumbers[0]
+        x1 = listOfNumbers[0]
         y1 = listOfNumbers[1]
         x2 = listOfNumbers[2]
         y2 = listOfNumbers[3]
